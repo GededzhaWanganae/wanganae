@@ -1,0 +1,31 @@
+
+h1{
+  color: purple;
+  font-size:3em;
+  color: pink;
+  font-size: inherit;
+  border: grey solid;
+  padding: 10px;
+}
+ body{
+   background-color:purple;
+}
+  ul{
+    background-color:grey;
+}
+ ol{
+   background-color:grey;
+}
+li:hover{
+  font-size:40px;
+  text-decoration:underline;
+}
+img:hover{
+  border:10px pink solid;
+  width:500px;
+  height:250px;
+}
+
+ li{
+   transition:0.3s ease;
+}
